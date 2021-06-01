@@ -4,13 +4,14 @@ body{
     margin: 0;
 }
 .menu{
+    position: fixed;
     background-color: rgb(54, 46, 42);
     height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    position: fixed;
     margin: auto;
+    z-index: 2; /*o eixo z é como se fosse um eixo de altura. ele faz com que algo vire tipo 3d, se sobrec=saia de tudo */
 }
 h1{
     margin-left: 100px;
@@ -34,9 +35,9 @@ h1{
     margin-right: 100px;
 }
 .mensagem{
-    padding-top: 65px;
+    padding-top: 75px;
     width: 100%;
-    height: 45px;
+    height: 60px;
     background-color: rgb(255, 244, 225);
     margin: auto;
     text-align: center;
@@ -44,7 +45,42 @@ h1{
 .alugue-agora{
     color: rgb(173, 58, 58);
     margin-left: 7px;
+    padding-top: 80px;
 }
-.carousel{
+.carousel-edicao{
+    padding-top: 40px;
+    height: 600px;
+    width: 100%;
+}
+.catalogo-homem{
+    margin: auto;
+    padding-left: 50px;
+}
+.catalogo-mulher{
+    margin: auto;
+}
 
+.catalogo-criança{
+    margin: auto;
+    padding-right: 50px;
+}
+.imagens{
+    background-image: url(imagem-vestido-cortada.jpg); /*imagem para fundo*/
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.comprar{
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 85%;
+    font-size: 20px;
+   /* letter-spacing: 5px; */
+}
+.tamanho{
+    background-color: white ;
+    width: 80px;
+    height: 30px;
 }
