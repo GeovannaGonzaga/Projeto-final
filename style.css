@@ -64,8 +64,24 @@ h1{
     margin: auto;
     padding-right: 50px;
 }
-.imagens{
-    background-image: url(imagem-vestido-cortada.jpg); /*imagem para fundo*/
+.feminino{
+    background-image: url(adulto.jpeg); /*imagem para fundo*/
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.masculino{
+    background-image: url(criança-1.jpeg); /*imagem para fundo*/
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.infantil{
+    background-image: url(criança.jpeg); /*imagem para fundo*/
     background-size: cover;
     height: 400px;
     display: flex;
@@ -82,5 +98,18 @@ h1{
 .tamanho{
     background-color: white ;
     width: 80px;
-    height: 30px;
+    height: 30px
 }
+.alugue{ /* eu fiz */
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.edicao-botton{
+    margin-top: 80%;
+    margin-left: 35%;
+}
+.ir{
+    position: relative;
+}
+.ir :hover { display: block; position: relative; bottom: 40px; color: white; }
