@@ -34,15 +34,31 @@ h1{
     margin-right: 100px;
 }
 .mensagem{
-    padding-top: 75px;
+    align-items: center;
+    text-align: center;
+    padding-top: 100px;
     width: 100%;
     height: 60px;
-    background-color: rgb(255, 244, 225);
-    margin: auto;
-    text-align: center;
+    background-color: rgb(252, 226, 182);
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    padding-left: 35%;
 }
 .alugue-agora{
     color: rgb(173, 58, 58);
     margin-left: 7px;
-    padding-top: 80px;
+}
+.roupas{
+    position: relative;
+    display: flex;
+    margin-top: 80PX;
+    color: black;
+}
+.distancia-nav{
+    margin-left:60%;
+}
+.roupa1{
+    background-image: url(giovanna,jpeg);
 }
