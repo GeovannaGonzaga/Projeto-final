@@ -125,4 +125,10 @@ h1{
     height: 300px;
     width: 300px;
     display: flex;
+    margin: 20px;
+    justify-content: space-between;
+}
+.linha{
+    justify-content: space-between;
+    margin-right: 100px;
 }
