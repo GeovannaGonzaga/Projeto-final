@@ -48,17 +48,19 @@ h1{
 }
 .alugue-agora{
     color: rgb(173, 58, 58);
-    margin-left: 7px;
+    margin: auto;
 }
 .roupas{
     position: relative;
     display: flex;
-    margin-top: 80PX;
-    color: black;
+    margin-top: 80PX;;
 }
 .distancia-nav{
-    margin-left:60%;
+    display: flex;
+    margin-inline-start: auto;
 }
 .roupa1{
     background-image: url(giovanna,jpeg);
+    width: 100%;
+    height: 400px;
 }
