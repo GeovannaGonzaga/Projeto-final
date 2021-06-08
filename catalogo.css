@@ -55,12 +55,15 @@ h1{
     display: flex;
     margin-top: 80PX;;
 }
-.distancia-nav{
+.vestido1{
+    height: 300px;
+    width: 300px;
     display: flex;
-    margin-inline-start: auto;
+    margin: 20px;
+    justify-content: space-between;
 }
-.roupa1{
-    background-image: url(giovanna,jpeg);
-    width: 100%;
-    height: 400px;
+.linha{
+    justify-content: space-between;
+    display: flex;
+
 }
