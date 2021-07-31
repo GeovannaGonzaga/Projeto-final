@@ -115,8 +115,10 @@ h1{
 .ir{
     position: relative;
 }
-.ir :hover { display: block; position: relative; bottom: 40px; color: white; }
-
+.ir :hover { display: block; position: relative; bottom: 60px; color: white; }
+.ir :hover span {
+    display: none;
+}
 .espaço{
     position: relative;
     display: flex;
